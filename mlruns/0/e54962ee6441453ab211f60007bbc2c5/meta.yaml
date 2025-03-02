@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Arunya%20Senadeera/OneDrive/Documents/GitHub/Optimization_Human_Preference/mlruns/0/e54962ee6441453ab211f60007bbc2c5/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e54962ee6441453ab211f60007bbc2c5
+run_name: ./output-dir
+run_uuid: e54962ee6441453ab211f60007bbc2c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740846697323
+status: 1
+tags: []
+user_id: Arunya Senadeera
