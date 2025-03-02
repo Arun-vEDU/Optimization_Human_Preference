@@ -9,7 +9,7 @@
 |500	|0.689300 |
 
 
-Link to uploaded model on Hugging Face Hub
+## Link for Hugging Face Hub
 
 https://huggingface.co/arunyasenadeera/A5dpo-finetuned-model
 
