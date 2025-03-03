@@ -9,6 +9,8 @@ app.py -> The app allow users to input text and receive response.
 
 ## Experiment (hyperparameters and training performance)
 
+Hyperparameters
+
     num_train_epochs=3,
     learning_rate=5e-07,
     per_device_train_batch_size=2,
@@ -29,6 +31,8 @@ app.py -> The app allow users to input text and receive response.
     beta=0.1,
     max_length=512,
     max_prompt_length=256
+    
+Training performance
 
 |Step	|Training Loss |
 |-----|--------------|
@@ -37,7 +41,13 @@ app.py -> The app allow users to input text and receive response.
 |300	|0.688300 |
 |400	|0.696100 |
 |500	|0.689300 |
+Note: I used 1% of the dataset for this training, and it took 5 hours, 12 minutes, and 53 seconds on a CPU.
 
+Conclusions
+
+1. The current training setup is not effective, as indicated by the stagnant training loss.
+
+2. The primary issues are likely the low learning rate, small dataset size, and insufficient training epochs.
 
 ## Link for Hugging Face Hub
 
