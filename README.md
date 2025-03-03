@@ -41,6 +41,7 @@ Training performance
 |300	|0.688300 |
 |400	|0.696100 |
 |500	|0.689300 |
+
 Note: I used 1% of the dataset for this training, and it took 5 hours, 12 minutes, and 53 seconds on a CPU.
 
 Conclusions
