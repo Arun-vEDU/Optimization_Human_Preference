@@ -9,6 +9,27 @@ app.py -> The app allow users to input text and receive response.
 
 ## Experiment (hyperparameters and training performance)
 
+    num_train_epochs=3,
+    learning_rate=5e-07,
+    per_device_train_batch_size=2,
+    gradient_accumulation_steps=4,
+    do_eval=True,
+    per_device_eval_batch_size=1,
+    adam_epsilon=1e-08,
+    lr_scheduler_type="linear",
+    warmup_ratio=0.1,
+    seed=42,
+    logging_steps=100,
+    save_steps=500,
+    save_strategy="steps",
+    output_dir="./output-dir",
+    gradient_checkpointing=True,
+    bf16=False,  # Disable bf16 for CPU
+    remove_unused_columns=False,
+    beta=0.1,
+    max_length=512,
+    max_prompt_length=256
+
 |Step	|Training Loss |
 |-----|--------------|
 |100	|0.694500 |
