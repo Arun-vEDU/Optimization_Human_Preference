@@ -1,4 +1,13 @@
-## Experiment
+## File Structure
+
+Model_DPOTrainer.ipynb -> Selected a publicly available dataset, and implemented the Direct Preference Optimization (DPO) training method with DPOTrainer Function
+using a pre-trained transformer model (GPT2). Save the trained model.
+
+Hugging_Face.ipynb -> Loaded the Saved trained model and uploaded the model to the Hugging Face Model Hub.
+
+app.py -> The app allow users to input text and receive response.
+
+## Experiment (hyperparameters and training performance)
 
 |Step	|Training Loss |
 |-----|--------------|
